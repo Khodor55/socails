@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+*{
+    font-family: "Tajawal", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+:root{
+    --Green: hsl(75, 94%, 57%);
+
+--White: hsl(0, 0%, 100%);
+
+--Grey700: hsl(0, 0%, 20%);
+--Grey800: hsl(0, 0%, 12%);
+--Grey900: hsl(0, 0%, 8%);
+}
+body{
+    background-color: var(--Grey900);
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+}
+
+.div{
+    background-color: var(--Grey800);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ text-align: center;   
+ align-items: center;
+border-radius: 5px;
+width: 280px;
+padding:15px 10px;
+}
+.div h1{
+    font-size: 23px;
+    text-transform: capitalize;
+
+}
+.div  h2{
+    font-size: 12px;
+margin-bottom: 10px;
+color: var(--Green);
+}
+.div  img{
+    width: 20%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+margin: auto;
+
+}
+.div h3{
+    font-size: 14px;
+ 
+}
+.div .details{
+    width: 80%;
+    margin: auto;
+
+
+
+}
+.div p{
+    background-color: var(--Grey700);
+    width: 90%;
+    border-radius: 5px;
+padding: 8px 8px;
+font-weight: bold;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+
+}
+.info_text{
+    display: block;
+
+}
+.info_text h2{
+margin-top: -10px;
+}
